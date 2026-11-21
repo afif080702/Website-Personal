@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buku Tamu - Aliy Tech</title>
+
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header id="aliy_header">
+    <h1>Buku Tamu</h1>
+    <nav class="aliy_menu">
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="tentang.html">Tentang</a></li>
+        <li><a href="layanan.html">Layanan</a></li>
+        <li><a href="galeri.html">Galeri</a></li>
+        <li><a href="artikel.html">Artikel</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+        <li><a href="buku-tamu.html" class="active">Buku Tamu</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="aliy_main">
+    <h2>Silakan Tinggalkan Pesan Anda</h2>
+
+    <section class="aliy_form_section">
+      <form id="aliy_form">
+        <label for="aliy_nama">Nama:</label>
+        <input type="text" id="aliy_nama" name="aliy_nama" placeholder="Masukkan nama Anda" required>
+
+        <label for="aliy_email">Email:</label>
+        <input type="email" id="aliy_email" name="aliy_email" placeholder="Masukkan email Anda" required>
+
+        <label for="aliy_pesan">Pesan:</label>
+        <textarea id="aliy_pesan" name="aliy_pesan" rows="4" placeholder="Tulis pesan Anda..." required></textarea>
+
+        <button type="submit">Kirim Pesan</button>
+      </form>
+
+      
+      <div id="aliy_output"></div>
+    </section>
+    <p class="aliy_next_link"><a href="index.html">Kembali ke Beranda →</a></p>
+  </main>
+
+  <footer id="aliy_footer">
+    <p>&copy; 2026 Aliy Tech. All Rights Reserved.</p>
+  </footer>
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>
